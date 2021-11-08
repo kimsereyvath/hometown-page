@@ -4,13 +4,7 @@
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-head{
-    border: solid black;
-    box-sizing: border-box;
-    width: 100vw;
-}
-
-head > div{
+header{
     width: 100%;
     box-sizing: border-box;
 }
