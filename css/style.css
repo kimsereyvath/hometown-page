@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
 }
 
 header{
@@ -13,29 +14,28 @@ li {
     width: 100%;
     height: 6vh;
     text-align: center;
-    border: solid blue;
     top: 0;
     position: fixed;
     box-sizing: border-box;
     list-style-type: none;
     background-color: rgb(95, 74, 60);
+    z-index: 1;
 }
 
 li a{
     text-decoration: none;
     font-family: 'PT Sans', sans-serif;
     margin-right: 3vw;
-    border: solid red;
     color: white;
 }
 
 .home{
-    border: solid violet;
     width: 100%;
     box-sizing: border-box;
+    background-color: green;
 }
 
-.home img{
+.home>img{
     width: 100%;
     box-sizing: border-box;
 }
@@ -45,7 +45,6 @@ li a{
     width: 98vw;
     color: white;
     top: 44vh;
-    border: solid blue;
     box-sizing: border-box;
 }
 
@@ -67,8 +66,41 @@ li a{
 }
 
 .pottery{
-    width: 50%;
+    width: 100%;
     text-align: center;
+    height: 100vh;
+    background-color: rgb(70, 60, 53);
+}
+
+.pottery-container{
+    padding-top: 10vh;
+    width: 40%;
+    padding-left: 5vw;
+}
+
+.pottery-start{
+    color:white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.pottery-title{
+    padding-top: 3vh;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.pottery-content{
+    padding-top: 7vh;
+    color: white;
+    line-height: 5vh;
+}
+
+.pottery-1{
+    width: 30vw;
+    position: absolute;
+    top: 100vh;
 }
 
 .to-prahok{
