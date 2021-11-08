@@ -39,7 +39,6 @@ li a{
     border: solid violet;
     width: 100%;
     box-sizing: border-box;
-    height: fit-content;
 }
 
 .home img{
@@ -47,18 +46,13 @@ li a{
     box-sizing: border-box;
 }
 
-.home div div hr{
-    width: 10vw;
-    height: 10vh;
-    color: red;
-}
-
 .home-welcome{
     position: absolute;
-    width: 100%;
+    width: 98vw;
     color: white;
     top: 44vh;
     border: solid blue;
+    box-sizing: border-box;
 }
 
 .welcome{
@@ -75,5 +69,31 @@ li a{
 
 .decor{
     font-size: 4em;
+    text-align: center;
+}
+
+.pottery{
+    width: 50%;
+    text-align: center;
+}
+
+.to-prahok{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.prahok{
+    
+}
+
+.to-food{
+    width: 100%;
+}
+
+.to-attraction{
+    width: 100%;
+}
+
+.map{
     text-align: center;
 }
