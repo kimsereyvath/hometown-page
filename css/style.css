@@ -20,6 +20,7 @@ li {
     list-style-type: none;
     background-color: rgb(95, 74, 60);
     z-index: 1;
+    padding-top: 1vh;
 }
 
 li a{
@@ -27,12 +28,19 @@ li a{
     font-family: 'PT Sans', sans-serif;
     margin-right: 3vw;
     color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 5vh;
+}
+
+li a:hover{
+    color: rgb(60, 211, 211);
 }
 
 .home{
     width: 100%;
     box-sizing: border-box;
-    background-color: green;
+    background-color: rgb(70, 60, 53);
 }
 
 .home>img{
@@ -100,26 +108,226 @@ li a{
 .pottery-1{
     width: 30vw;
     position: absolute;
-    top: 100vh;
+    top: 130vh;
+    left: 45vw;
+}
+
+.pottery-2{
+    width: 20vw;
+    position: absolute;
+    top: 125vh;
+    left: 75vw;
+}
+
+.pottery-3{
+    width: 30vw;
+    position: absolute;
+    top: 175vh;
+    left: 47vw;
 }
 
 .to-prahok{
     width: 100%;
-    box-sizing: border-box;
+    background-color: rgb(70, 60, 53);
 }
 
 .prahok{
-    
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(70, 60, 53);
+}
+
+.prahok-container{
+    padding-top: 10vh;
+    width: 40%;
+    padding-left: 5vw;
+    margin-left: 53vw;
+}
+
+.prahok-start{
+    color:white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.prahok-title{
+    padding-top: 3vh;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.prahok-content{
+    padding-top: 7vh;
+    color: white;
+    line-height: 5vh;
+}
+
+.prahok-1{
+    width: 30vw;
+    position: absolute;
+    top: 310vh;
+    left: 3vw;
+}
+
+.prahok-2{
+    width: 20vw;
+    position: absolute;
+    top: 315vh;
+    left: 30vw;
+}
+
+.prahok-3{
+    width: 25vw;
+    position: absolute;
+    top: 357vh;
+    left: 7vw;
 }
 
 .to-food{
     width: 100%;
+    background-color: rgb(70, 60, 53);
+}
+
+.food{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(70, 60, 53);
+}
+
+.food-container{
+    padding-top: 10vh;
+    width: 40%;
+    padding-left: 5vw;
+}
+
+.food-start{
+    color:white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.food-title{
+    padding-top: 3vh;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.food-content{
+    padding-top: 7vh;
+    color: white;
+    line-height: 5vh;
+}
+
+.food-1{
+    width: 30vw;
+    position: absolute;
+    top: 495vh;
+    left: 45vw;
+}
+
+.food-2{
+    width: 20vw;
+    position: absolute;
+    top: 490vh;
+    left: 77vw;
+}
+
+.food-3{
+    width: 30vw;
+    position: absolute;
+    top: 540vh;
+    left: 49vw;
 }
 
 .to-attraction{
     width: 100%;
+    background-color: rgb(70, 60, 53);
+}
+
+.attraction{
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    background-color: rgb(70, 60, 53);
+}
+
+.attraction-container{
+    padding-top: 10vh;
+    width: 40%;
+    padding-left: 5vw;
+    margin-left: 53vw;
+}
+
+.attraction-start{
+    color:white;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.attraction-title{
+    padding-top: 3vh;
+    color: white;
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.attraction-content{
+    padding-top: 7vh;
+    color: white;
+    line-height: 5vh;
+}
+
+.attraction-1{
+    width: 30vw;
+    position: absolute;
+    top: 680vh;
+    left: 2vw;
+}
+
+.attraction-2{
+    width: 25vw;
+    position: absolute;
+    top: 687vh;
+    left: 30vw;
+}
+
+.attraction-3{
+    width: 30vw;
+    position: absolute;
+    top: 723vh;
+    left: 7vw;
+}
+
+.attraction-4{
+    width: 30vw;
+    position: absolute;
+    top: 732vh;
+    left: 35vw;
+}
+
+.where-start{
+    text-align: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    color: rgb(70, 60, 53);
+    font-weight: 600;
+    font-size: 2em;
 }
 
 .map{
     text-align: center;
+}
+
+.author{
+    margin-top: 10vh;
+    padding-top: 1vh;
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    height: 7vh;
+    background-color: rgb(70, 60, 53);
 }
